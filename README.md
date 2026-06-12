@@ -58,3 +58,8 @@ Esta base actúa como el **Historial de Operaciones**. Cada fila representa un b
 2. Instala las dependencias necesarias:
    ```bash
    pip install -r requirements.txt
+
+   ## ⚙️ Personalización del Auditor (System Prompt)
+El motor de IA está configurado en `auditor.py` bajo un perfil conductual optimizado para perfiles analíticos y de estrategia de negocios (perfil ENTP enfocado en Ingeniería Comercial, Estrategia de Datos y Procesos). 
+
+Si deseas adaptar el comportamiento del auditor a tu propia carrera, estilo cognitivo (MBTI) o debilidades de aprendizaje, puedes editar la variable `AUDITOR_BASE` dentro del script principal para personalizar el comportamiento del bot según tus necesidades operativas.
