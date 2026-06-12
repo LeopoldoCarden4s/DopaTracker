@@ -65,3 +65,10 @@ El motor de IA está configurado en `auditor.py` bajo un perfil conductual optim
 Si deseas adaptar el comportamiento del auditor a tu propia carrera, estilo cognitivo (MBTI) o debilidades de aprendizaje, puedes editar la variable `AUDITOR_BASE` dentro del script principal para personalizar el comportamiento del bot según tus necesidades operativas.
 
 > 💡 **Nota sobre modularidad:** El uso de perfiles de personalidad como el indicador MBTI (ej. ENTP) se incluye exclusivamente a modo de ejemplificación práctica para demostrar la capacidad de adaptación del sistema. La arquitectura del software no depende de ninguna metodología específica de medición de personalidad; por el contrario, está diseñada de forma agnóstica para que el usuario pueda parametrizar cualquier modelo cognitivo, debilidad de ejecución o regla de comportamiento que requiera su flujo de trabajo.
+
+## 🔄 Historial de Actualizaciones (Changelog)
+
+**[v2.0.0] - Parche Estratégico**
+* **NUEVO:** Se añadió el comando `actualizacion` para sincronizar el estado del semestre y contrastar el objetivo semanal directamente con el Sílabo usando la IA.
+* **NUEVO:** Sistema de inyección de prioridades. El bot ahora calcula matemáticamente los días restantes para evaluaciones y fuerza el enfoque de estudio si hay un certamen inminente.
+* **MEJORA:** El bot ahora tiene memoria a corto plazo (lee las últimas 3 sesiones) para evitar redundancias operativas y dar continuidad al aprendizaje.
